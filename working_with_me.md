@@ -21,18 +21,27 @@
 ## My Design Philosophy
 
 - **Simplicity**
-  - 
+  - Units of code (methods, interfaces...etc.) which do 1 thing are usually more flexible (decoupled from other code) & easier to understand
+  - Complexity means multiple concerns/responsibilities intertwined together
 - **YAGNI (You ain't gonna need it)**
   - As engineers it can be easy to get ahead of ourselves & solve problems that don't exist yet (and may not ever exist)
-  - This includes abstractions
+  - This includes abstractions. Abstract & generalize when there is a benefit to doing so and not before.
 - **Readability**
-- **Data-Oriented**
+  - Code is read many more times than it is updated, often by someone who has less context than the person who wrote it.
+  - Code which is difficult to understand is easy to break
 
 ## Practices
 
-- Take time to Learn
-  - understand tools, technologies
+- Take time
+  - **To understanding tools & new technologies:** It usually pays dividends in the long term. It's important to spend 1 hour reading docs when working with a new technology or working on an important design.
+- Growth mindset
+  - mistakes --> opportunity to grow, process changes
 
 ## Communicating with others
 
-- Ask Questions
+- **Collaborate**
+  - Ultimately we work as a team
+  - We can learn from each other, regardless of level/experience
+
+
+## Communicating with me
