@@ -5,7 +5,7 @@
   -  How will we know we succeeded?
   -  What are the critical use cases & edge cases? 
   -  What are the most important aspects of the solution? Performance, observability, readability...etc. 
-  -  What are the existing systems/structures/components that we need to interact with?
+  -  What are the existing systems/structures/components that we need to interact with? What do responsibilities/concerns belong?
   2. **Make a Plan**
   -  The scope of the plan depends mostly on the complexity of the changes & number of moving/interconnected components. 
   -  The main goal is to find unknowns early on which may mean my changes won't work
@@ -20,28 +20,34 @@
 
 ## My Design Philosophy
 
-- **Simplicity**
+- [**Simplicity**](https://www.youtube.com/watch?v=LKtk3HCgTa8)
   - Units of code (methods, interfaces...etc.) which do 1 thing are usually more flexible (decoupled from other code) & easier to understand
   - Complexity means multiple concerns/responsibilities intertwined together
 - **YAGNI (You ain't gonna need it)**
   - As engineers it can be easy to get ahead of ourselves & solve problems that don't exist yet (and may not ever exist)
   - This includes abstractions. Abstract & generalize when there is a benefit to doing so and not before.
-- **Readability**
+- [**Readability**](https://medium.com/@egonelbre/psychology-of-code-readability-d23b1ff1258a)
   - Code is read many more times than it is updated, often by someone who has less context than the person who wrote it.
   - Code which is difficult to understand is easy to break
 
 ## Practices
 
-- Take time
-  - **To understanding tools & new technologies:** It usually pays dividends in the long term. It's important to spend 1 hour reading docs when working with a new technology or working on an important design.
-- Growth mindset
-  - mistakes --> opportunity to grow, process changes
+- **Take time**
+  - Seek to understand tradeoffs instead of searching for a "right" or familiar solution. It takes time to evaluate different solutions & understand what is best in the current context
+  - Seek to understand deeply. A deeper understanding helps to simplify problems. A cursory understanding can lead to forcing a sub-optimal solution. This applies to problems, tools, technologies...
+  - Important problems take time
+- [**Growth mindset**](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+  - Everyone makes mistakes. Mistakes are opportunities to learn. Favor process changes over relying on willpower (or "remembering next time")
+- **Incremental Releases**
+  - Big Bang releases (releasing a large feature all at once) are often the most risky
+  - Releasing changes which are deactivated or invisible to users in production gives feedback earlier & surfaces problems sooner in the development process
+  - There's almost always a way to release incrementally (i.e. use feature flags)
 
 ## Communicating with others
 
 - **Collaborate**
-  - Ultimately we work as a team
-  - We can learn from each other, regardless of level/experience
+  - We can all learn from each other, regardless of past experience. I try to be curious when others have a different perspective. Seek to understand by asking questions
+  - The times I have grown most have come from pairing with people. Getting to see their thought process, not just their solution, but how they go about solving problems.
 
 
 ## Communicating with me
