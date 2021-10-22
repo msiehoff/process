@@ -1,5 +1,16 @@
 # My Working Philosophy
 
+## Communicating with others
+
+- We can all learn from each other, regardless of past experience. I try to be curious when others have a different perspective. Seek to understand by asking questions. 
+- I try to use neutral language to avoid being critical. Frame things as problems to solve together
+- The times I have grown most have come from pairing with people. Getting to see their thought process, not just their solution, but how they go about solving problems.
+- Alignment on the goal & what aspects of a solution are important often make communication smoother.
+
+## Communicating with me
+
+- I enjoy pairing to work through obstacles or designs. I prefer hopping on a quick call over a long series of slack messages.
+
 ## My Process
   1.  **Understand the problem:** This is always the first step. Without defining & understanding the problem or goal it's difficult to evaluate any potential solution. 
   -  How will we know we succeeded?
@@ -42,12 +53,3 @@
   - Big Bang releases (releasing a large feature all at once) are often the most risky
   - Releasing changes which are deactivated or invisible to users in production gives feedback earlier & surfaces problems sooner in the development process
   - There's almost always a way to release incrementally (i.e. use feature flags)
-
-## Communicating with others
-
-- **Collaborate**
-  - We can all learn from each other, regardless of past experience. I try to be curious when others have a different perspective. Seek to understand by asking questions
-  - The times I have grown most have come from pairing with people. Getting to see their thought process, not just their solution, but how they go about solving problems.
-
-
-## Communicating with me
